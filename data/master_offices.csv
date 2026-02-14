@@ -1,0 +1,6 @@
+office_name,workload_multiplier,avg_daily_capacity
+Mumbai,1.3,500
+New Delhi,1.4,600
+Chennai,1.1,400
+Hyderabad,1.0,350
+Kolkata,0.9,300
