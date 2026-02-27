@@ -1,6 +1,6 @@
 # AI-Enabled Visa Status System
 
-This project simulates and analyzes visa application processing using synthetic and real-world-inspired datasets. The workflow includes data generation, introducing realistic data issues, cleaning, and feature engineering for further analysis or modeling.
+This project simulates and analyzes visa application processing using synthetic and real-world-inspired datasets. The workflow includes data generation, introducing realistic data issues, cleaning, feature engineering, and exploratory data analysis for further modeling.
 
 ## Project Structure
 
@@ -40,6 +40,18 @@ This project simulates and analyzes visa application processing using synthetic 
 - Handles outliers by capping extreme processing days
 - Outputs: `clean_applications.csv`
 
+## Milestones
+
+### Milestone 1 (Weeks 1–2): Data Collection & Preprocessing
+- Collected sample/historical visa datasets (synthetic and master data).
+- Handled missing values and categorical encoding.
+- Generated target labels (processing time in days).
+
+### Milestone 2 (Weeks 3–4): Exploratory Data Analysis & Feature Engineering
+- Performed EDA with visualizations (Matplotlib/Seaborn).
+- Identified correlations between features and processing times.
+- Engineered features such as seasonal index, country-specific averages, and date-based features.
+
 ## How to Reproduce
 
 1. Run `generate_master_data.py` to create master data
@@ -53,4 +65,3 @@ This project simulates and analyzes visa application processing using synthetic 
 - The project is modular and can be extended for further analysis or modeling
 
 ---
-
